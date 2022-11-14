@@ -1,0 +1,19 @@
+.wrapper {
+    font-size: 20vmin;
+    height: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    mix-blend-mode: overlay;
+}
+
+.wrapper>span {
+    --color: #e91616;
+    font-family: Impact, 'Anton', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    display: block;
+    position: absolute;
+    color: var(--color);
+    letter-spacing: -.005em;
+}

@@ -1,0 +1,231 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 1200px;
+  background-image: url(image/icecream6.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color: pink;
+  padding: 20px;
+  width: 100%;
+  position: sticky;
+  top: 0; 
+}
+
+.footer {
+  background-color: pink;
+  padding: 20px;
+  width: 100%;
+}
+.nav-logo {
+  float: left;
+  font-size: 40px;
+}
+
+.nav-logo>span {
+  
+  font-weight: bold;
+  font-style:italic;
+  font-family: "Anton"; 
+}
+
+
+
+.nav-links >a {
+  font-size: 20px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-family: "Oswald"; 
+}
+
+.main {
+  height: 100vh; 
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(image/icecream.png);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  
+
+}
+
+.front {
+  color:rgb(56, 6, 21);
+  font-size: 30px;
+  font-weight: 1000;
+  padding: 20px; 
+  border-style:solid;  
+  border-color: white; 
+  border-width: 10px;
+  background: rgb(247, 247, 192);
+  opacity:70%;
+}
+
+
+
+body {
+  height: 100%;
+}
+
+.parallax1 {
+  height: 100vh;
+  background-image: url(image/ice-cream-factory-retail.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.parallax2 {
+  height: 100vh;
+  background-image: url(image/shipping.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.parallax3 {
+  height: 100vh;
+  background-image: url(image/icecream7.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.parallax4 {
+  height: 100vh;
+  background-image: url(image/icecream8.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  padding: 50px;
+  background: rgb(204, 115, 115);
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-family: "Secular One"; 
+}
+
+
+
+a {
+  background: linear-gradient(#1095c1 0 0) var(--p,0)/var(--p,0) no-repeat;
+}
+
+a:hover {
+  --p: 100%;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+a:hover, a:focus, a:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/* contact us */
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #e620ab;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #d21515;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media screen and (max-width:800px) {
+  .navbar {
+      flex-direction: column;
+  }
+
+  .nav-links {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+}
+
+.nav-select >a{ 
+  font-size: 21px;
+  font-weight: bold;
+  color:rgb(164, 0, 88)
+}
+
+
+
+
+
+
+
+
